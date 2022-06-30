@@ -1,7 +1,7 @@
-function P(){
-    a=localStorage.getItem("sc");
-    document.getElementById("s1").innerHTML="Score : "+a;
-}
-function N1(){
-    window.location="activity_1.html";
+function addUser(){
+    pl1=document.getElementById("un-1").value;
+    pl2=document.getElementById("un-2").value;
+    localStorage.setItem("pls",pl1);
+    localStorage.setItem("pls1",pl2);
+    window.location="quiz_game_page.html";
 }
